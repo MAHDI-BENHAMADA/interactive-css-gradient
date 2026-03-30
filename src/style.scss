@@ -19,7 +19,20 @@ body {
   --blending: hard-light;
 }
 
-
+.title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 5rem;
+      font-weight: 900;
+      color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      z-index: 10;
+      letter-spacing: 3px;
+      text-shadow: 0 0 30px rgba(140, 140, 255, 0.5);
+      pointer-events: none;
+    }
 
 @keyframes moveInCircle {
   0% {
